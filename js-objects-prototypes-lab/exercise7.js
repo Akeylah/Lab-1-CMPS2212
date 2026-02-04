@@ -20,3 +20,7 @@ return Math.PI * this.radius * this.radius;
 
 console.log(`Rectangle area: ${rectangle.calculateArea()}`);
 console.log(`Circle area: ${circle.calculateArea().toFixed(2)}`);
+
+
+//This code shows how child objects can override a method inherited from a parent object.
+//rectangle and circle each provide their own version of calculateArea().

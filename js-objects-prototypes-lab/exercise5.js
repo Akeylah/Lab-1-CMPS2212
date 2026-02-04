@@ -15,3 +15,7 @@ console.log(Object.hasOwn(car, 'make'));
 console.log(Object.hasOwn(car, 'wheels')); 
 console.log(car.wheels);                   
 console.log(car.describe());
+
+
+//This code creates a car object that inherits properties and methods from vehicle.
+//It checks which properties belong directly to car and uses an inherited method from vehicle.

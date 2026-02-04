@@ -17,3 +17,7 @@ function updateProperty(obj, propertyName, newValue) {
 displayProperty(book, 'title');
 updateProperty(book, 'year', 2024);
 displayProperty(book, 'year');
+
+
+//Shows how to access and update object properties using a variable name instead of dot notation.
+//It displays a book title, updates the year, and then displays the updated value.

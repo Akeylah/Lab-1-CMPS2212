@@ -28,3 +28,7 @@ console.log(manager.company);
 console.log(manager.species);
 console.log(manager.breathe());
 console.log(manager.team);
+
+
+//inheritance across multiple objects: manager -> employee -> person.
+//The manager object can access its own properties and methods inherited from both employee and person

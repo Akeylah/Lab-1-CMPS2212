@@ -57,3 +57,25 @@ console.log(
   universityLibrary.searchByAuthor('Akeylah')
 );
 
+
+
+/* 
+addBook(title, author, isbn)
+creates a new book object using the given details.
+It then adds the book to the library’s books array.
+
+findBookByTitle(title)
+searches the books array for a book with a matching title.
+If found, it returns the book; otherwise, it returns a “Book was not found” message.
+
+listAllBooks()
+loops through all books in the library.
+It prints the title of each book to the console.
+
+searchByAuthor(author)
+finds all books written by a specific author.
+If no books are found, it prints a message and returns an empty list.
+
+addCourseBook(courseName, title, author, isbn)
+adds a course name to the university library’s course list.
+It also adds the book to the library using the inherited addBook() method. */
